@@ -26,4 +26,14 @@ public class LocationFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_location, container, false);
     }
 
+    public static Fragment createNewInstance(Location location) {
+        return new LocationFragment();
+    }
+    public static Fragment createNewInstance(int position) {
+        Fragment fragment = new LocationFragment();
+        Bundle bundle = new Bundle();
+        bundle.putInt("location position", position);
+        fragment.setArguments(bundle);
+        return fragment;
+    }
 }

@@ -34,7 +34,7 @@
             android:layout_weight="1"
             android:gravity="bottom"
             android:textAppearance="?android:textAppearanceMedium"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:textStyle="bold"
             tools:text="Name" />
 
@@ -45,8 +45,19 @@
             android:layout_weight="1"
             android:gravity="top"
             android:textAppearance="?android:textAppearanceMedium"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             tools:text="555-555-5555" />
+        <TextView
+            android:id="@+id/location_address_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            tools:text="Address" />
+
         <TextView
             android:id="@+id/location_website_text_view"
             android:layout_width="match_parent"
@@ -54,6 +65,6 @@
             android:layout_weight="1"
             android:gravity="top"
             android:textAppearance="?android:textAppearanceMedium"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             tools:text="www.example.com" />
 </LinearLayout>

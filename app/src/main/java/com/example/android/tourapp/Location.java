@@ -52,7 +52,7 @@ public class Location {
         return mWebsite;
     }
 
-    public String getmddress() {
+    public String getAddress() {
         return mAddress;
     }
 
