@@ -33,5 +33,15 @@ public final class Locations {
         }
         return locationsInCategory;
     }
+    public static int getPositionOfLocation(Location location) {
+        int i = 0;
+        for(; i<LOCATIONS.length; i++){
+            if(LOCATIONS[i] == location){
+                return i;
+
+            }
+        }
+        return -1;
+    }
 
 }
