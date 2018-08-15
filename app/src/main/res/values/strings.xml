@@ -1,13 +1,47 @@
 <resources>
     <string name="app_name">TourApp</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="category_poi">Points of Interest</string>
     <string name="category_restaurants">Restaurants</string>
     <string name="category_architecture">Architecture</string>
     <string name="category_parks_and_recreation">Parks and Rec</string>
     <string name="location_u_heights">U-Heights</string>
+    <string name="location_u_heights_phone">206-527-4278</string>
+    <string name="location_u_heights_url">www.uheightscenter.org</string>
+    <string name="location_u_heights_address">5031 University Way NE</string>
+    <string name="location_farmers_market">Farmers Market</string>
+    <string name="location_farmers_market_phone">206-632-5234</string>
+    <string name="location_farmers_market_url">https://seatlefarmersmarkets.org/markets/u-district</string>
+    <string name="location_farmers_market_address">5000 University Way NE</string>
+    <string name="location_taste_of_india">Taste of India</string>
+    <string name="location_taste_of_india_phone">206-528-1575</string>
+    <string name="location_taste_of_india_url">www.tasteofindiaseattle.com</string>
+    <string name="location_taste_of_india_address">5517 Roosevelt Way NE</string>
+    <string name="location_uw_quad">UW Quad</string>
+    <string name="location_uw_quad_phone">206-543-2100</string>
+    <string name="location_uw_quad_url">www.washington.edu</string>
+    <string name="location_uw_quad_address">Pierce Ln</string>
+    <string name="location_university_branch_library">University Branch Library</string>
+    <string name="location_university_branch_library_phone">206-684-4063</string>
+    <string name="location_university_branch_library_url">www.spl.org/hours-and-locations/university-branch</string>
+    <string name="location_university_branch_library_address">5009 Roosevelt Way NE</string>
+    <string name="location_university_playground">University Playground</string>
+    <string name="location_university_playground_url">www.seattle.gov/parks/find/parks/university-playground</string>
+    <string name="location_university_playground_address">4745 9th Ave NE</string>
+    <string name="location_seattle_parks_phone">206-684-4075</string>
+    <string name="location_burke_museum">Burke Museum</string>
+    <string name="location_burke_museum_phone">206-543-7907</string>
+    <string name="location_burke_museum_url">www.burkemuseum.org/</string>
+    <string name="location_burke_museum_address">1413 NE 45th St</string>
+    <string name="location_hotel_deca">Hotel Deca</string>
+    <string name="location_hotel_deca_address">4507 Brooklyn Ave NE</string>
+    <string name="location_data_none_closed">None: Location Closed</string>
+    <string name="location_neptune_theatre">Neptune Theatre</string>
+    <string name="location_neptune_theatre_phone">206-682-1414</string>
+    <string name="location_neptune_theatre_url">www.stgpresents.org/neptune</string>
+    <string name="location_neptune_theatre_address">1303 NE 45th Ste</string>
+    <string name="location_cowen_park">Cowen Park</string>
+    <string name="location_cowen_park_address">5849 15th Ave NE</string>
+    <string name="location_cowen_park_url">www.seattle.gov/parks/find/parks/cowen-park</string>
     <string-array name="categories">
         <item>@string/category_poi</item>
         <item>@string/category_restaurants</item>
