@@ -15,8 +15,8 @@ public class Location {
    private String mName;
    private String mPhone;
    private String mWebsite;
-    private String mAddress;
-    private int mImageId;
+   private String mAddress;
+   private int mImageId;
    private ArrayList<Integer> mCategoryId = new ArrayList<>();
 
     /**

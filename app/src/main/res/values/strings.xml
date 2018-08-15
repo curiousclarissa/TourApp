@@ -7,6 +7,7 @@
     <string name="category_restaurants">Restaurants</string>
     <string name="category_architecture">Architecture</string>
     <string name="category_parks_and_recreation">Parks and Rec</string>
+    <string name="location_u_heights">U-Heights</string>
     <string-array name="categories">
         <item>@string/category_poi</item>
         <item>@string/category_restaurants</item>
