@@ -12,7 +12,8 @@ public class LocationDetailsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_location_details);
         // Get the {@link Word} object located at this position in the list
-        Location currentLocation = Locations.LOCATIONS[getIntent().getIntExtra("location position", 0)];
+//        Location currentLocation = Locations.LOCATIONS[getIntent().getIntExtra("location position", 0)];
+        Location currentLocation = getIntent().getParcelableExtra("location position");
 
         //Find the ImageView for the location
         ImageView locationImageView = findViewById(R.id.location_image_view);

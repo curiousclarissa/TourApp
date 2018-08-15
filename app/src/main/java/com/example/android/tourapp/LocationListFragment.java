@@ -48,7 +48,7 @@ public class LocationListFragment extends Fragment {
 
                 // launch an intent
                 Intent launchIntent = new Intent(getContext(), LocationDetailsActivity.class);
-                launchIntent.putExtra("location position", Locations.getPositionOfLocation(filteredLocations.get(position)));
+                launchIntent.putExtra("location position", (filteredLocations.get(position)));
                 startActivity(launchIntent);
             }
         });
