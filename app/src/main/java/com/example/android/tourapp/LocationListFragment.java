@@ -33,6 +33,7 @@ public class LocationListFragment extends Fragment {
 
         // Inflate the layout for this fragment
         View rootView =  inflater.inflate(R.layout.fragment_location_list, container, false);
+        //filter out locations except for what should be in the tab
         final ArrayList<Location> filteredLocations = Locations.getLocationsInCategory(getArguments().getInt("category position", Location.LOCATION_CATEGORY_POI));
         LocationAdapter adapter = new LocationAdapter(getContext(), filteredLocations, 0);
         // word_list.xml layout file.

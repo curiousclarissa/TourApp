@@ -5,8 +5,12 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="category_poi">Points of Interest</string>
     <string name="category_restaurants">Restaurants</string>
+    <string name="category_architecture">Architecture</string>
+    <string name="category_parks_and_recreation">Parks and Rec</string>
     <string-array name="categories">
         <item>@string/category_poi</item>
         <item>@string/category_restaurants</item>
+        <item>@string/category_architecture</item>
+        <item>@string/category_parks_and_recreation</item>
     </string-array>
 </resources>

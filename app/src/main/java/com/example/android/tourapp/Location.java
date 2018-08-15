@@ -30,6 +30,8 @@ public class Location {
    public @interface LocationCategory{}
    public static final int LOCATION_CATEGORY_POI=0;
    public static final int LOCATION_CATEGORY_RESTAURANT=1;
+   public static final int LOCATION_CATEGORY_ARCHITECTURE=2;
+   public static final int LOCATION_CATEGORY_PARKSANDREC=3;
 
     public Location(String name, String phone, String website, String address, int imageId, ArrayList<Integer> categoryId) {
         this.mName = name;
