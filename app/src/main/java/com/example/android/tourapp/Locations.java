@@ -8,11 +8,10 @@ import java.util.Arrays;
 
 /**
  * Created by clarissajarem on 8/14/18.
- * contains an array of locations
+ * contains an array of locations and their data
  */
 
 public final class Locations {
-    Context context;
     public static final Location[] LOCATIONS = {
             new Location(App.getContext().getResources().getString(R.string.location_u_heights),
                     App.getContext().getResources().getString(R.string.location_u_heights_phone),
@@ -65,6 +64,7 @@ public final class Locations {
                     App.getContext().getResources().getString(R.string.location_neptune_theatre_address),
                     R.drawable.ic_place_black_24dp, new ArrayList<Integer>(Arrays.asList(Location.LOCATION_CATEGORY_POI, Location.LOCATION_CATEGORY_ARCHITECTURE))),
     };
+    Context context;
 
     private Locations() {
     }

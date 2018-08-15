@@ -18,7 +18,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".LocationDetailsActivity"></activity>
-        <activity android:name=".LocationListFragment"></activity>
     </application>
 
 </manifest>
